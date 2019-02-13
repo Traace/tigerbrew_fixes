@@ -17,7 +17,7 @@ class Openconnect < Formula
     depends_on "libtool" => :build
   end
 
-  # No longer compiles against OpenSSL 1.0.2 - It chooses homebrews gnutls now.
+  # No longer compiles against OpenSSL 1.0.2 - It chooses homebrews gnutls now
   # http://lists.infradead.org/pipermail/openconnect-devel/2015-February/002757.html
 
   depends_on "pkg-config" => :build
